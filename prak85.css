@@ -1,0 +1,39 @@
+body{
+    background-color: rebeccapurple;
+    margin: 1vh 1vw;
+}
+header, 
+footer{
+    background-color: khaki;
+    height: 15vh;
+    margin: 10px;
+}
+#main{
+    display: flex;
+    margin: 2px;
+}
+#main aside{
+    background-color: aquamarine;
+    width: 20vw;  
+}
+#main article{
+    background-color: yellowgreen;
+    width: 20vw;
+    flex: 1;
+}
+#main aside, 
+#main article{
+    height: 55vh;
+}
+.aside{
+    margin: 10px;
+}
+.artikel{
+    margin: 10px;
+}
+.artikel img{
+    height: 20vh;
+    margin: 5px;
+    margin-top: 20%;
+    margin-left: 7%;
+}
